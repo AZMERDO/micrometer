@@ -1,4 +1,4 @@
-# Micrometer Application Metrics --- FORKED 
+# Micrometer Application Metrics --- FORKED -----
 
 [![Build Status](https://circleci.com/gh/micrometer-metrics/micrometer.svg?style=shield)](https://circleci.com/gh/micrometer-metrics/micrometer)
 [![Apache 2.0](https://img.shields.io/github/license/micrometer-metrics/micrometer.svg)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -26,19 +26,6 @@ Join the [Micrometer Slack](https://slack.micrometer.io) to share your questions
 ## Snapshot builds
 
 Snapshots are published to `repo.spring.io` for every successful build on the `main` branch and maintenance branches.
-
-To use:
-
-```groovy
-repositories {
-    maven { url 'https://repo.spring.io/snapshot' }
-}
-
-dependencies {
-    implementation 'io.micrometer:micrometer-core:latest.integration'
-}
-```
-
 ## Milestone releases
 
 Milestone releases are published to https://repo.spring.io/milestone.
